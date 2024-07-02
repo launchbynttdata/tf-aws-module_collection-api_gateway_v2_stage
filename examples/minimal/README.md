@@ -17,9 +17,9 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_api_gateway"></a> [api\_gateway](#module\_api\_gateway) | d2lqlh14iel5k2.cloudfront.net/module_primitive/api_gateway_v2/aws | ~> 1.0 |
-| <a name="module_api_gateway_stage"></a> [api\_gateway\_stage](#module\_api\_gateway\_stage) | d2lqlh14iel5k2.cloudfront.net/module_collection/api_gateway_v2_stage/aws | ~> 1.0 |
-| <a name="module_resource_names"></a> [resource\_names](#module\_resource\_names) | d2lqlh14iel5k2.cloudfront.net/module_library/resource_name/launch | ~> 1.0 |
+| <a name="module_api_gateway"></a> [api\_gateway](#module\_api\_gateway) | terraform.registry.launch.nttdata.com/module_primitive/api_gateway_v2/aws | ~> 1.0 |
+| <a name="module_api_gateway_stage"></a> [api\_gateway\_stage](#module\_api\_gateway\_stage) | terraform.registry.launch.nttdata.com/module_collection/api_gateway_v2_stage/aws | ~> 1.0 |
+| <a name="module_resource_names"></a> [resource\_names](#module\_resource\_names) | terraform.registry.launch.nttdata.com/module_library/resource_name/launch | ~> 1.0 |
 
 ## Resources
 

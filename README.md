@@ -116,13 +116,13 @@ If `make check` target is successful, developer is good to commit the code to pr
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.45.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.56.1 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_stage"></a> [stage](#module\_stage) | d2lqlh14iel5k2.cloudfront.net/module_primitive/api_gateway_v2_stage/aws | ~> 1.0 |
+| <a name="module_stage"></a> [stage](#module\_stage) | terraform.registry.launch.nttdata.com/module_primitive/api_gateway_v2_stage/aws | ~> 1.0 |
 
 ## Resources
 

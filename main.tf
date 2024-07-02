@@ -11,7 +11,7 @@
 // limitations under the License.
 
 module "stage" {
-  source  = "d2lqlh14iel5k2.cloudfront.net/module_primitive/api_gateway_v2_stage/aws"
+  source  = "terraform.registry.launch.nttdata.com/module_primitive/api_gateway_v2_stage/aws"
   version = "~> 1.0"
 
   api_id      = var.api_id
