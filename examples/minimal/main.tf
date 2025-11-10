@@ -18,8 +18,7 @@ module "api_gateway" {
 }
 
 module "api_gateway_stage" {
-  source  = "terraform.registry.launch.nttdata.com/module_collection/api_gateway_v2_stage/aws"
-  version = "~> 1.0"
+  source = "../.."
 
   api_id      = module.api_gateway.api_gateway_id
   name        = module.resource_names["api_gateway_stage"].minimal_random_suffix
@@ -28,7 +27,7 @@ module "api_gateway_stage" {
 
 module "resource_names" {
   source  = "terraform.registry.launch.nttdata.com/module_library/resource_name/launch"
-  version = "~> 1.0"
+  version = "~> 2.0"
 
   for_each = var.resource_names_map
 
